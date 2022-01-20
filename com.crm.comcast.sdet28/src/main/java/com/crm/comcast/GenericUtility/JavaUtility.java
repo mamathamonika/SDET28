@@ -30,6 +30,7 @@ public class JavaUtility {
 	{
 		Date date =new Date();
 		String dateAndTime = date.toString();
+		dateAndTime.replace(":", "-");
 		return dateAndTime;
 	}
 

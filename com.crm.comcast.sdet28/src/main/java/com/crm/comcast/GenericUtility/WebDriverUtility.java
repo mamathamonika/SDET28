@@ -1,11 +1,13 @@
 package com.crm.comcast.GenericUtility;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -206,15 +208,16 @@ public class WebDriverUtility {
 	 * @param driver
 	 * @param testCaseName
 	 * @return
+	 * @throws IOException 
 	 */
-	public String screenshot(WebDriver driver,String testCaseName) {
+	public String screenshot(WebDriver driver,String testCaseName) throws IOException {
 
 		JavaUtility jUtil= new JavaUtility();
 		String path ="./photo"+testCaseName+jUtil.getSystemDateAndTime()+".png";
 		TakesScreenshot ts= (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File desc = new File(path);
-		src.renameTo(desc);
+		FileUtils.copyFile(src, desc);
 		return path;
 	}
 

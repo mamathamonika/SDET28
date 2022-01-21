@@ -29,8 +29,7 @@ public class JavaUtility {
 	public String getSystemDateAndTime()
 	{
 		Date date =new Date();
-		String dateAndTime = date.toString();
-		//dateAndTime.replace(":", "-");
+		String dateAndTime = date.toString().replaceAll(":","-");
 		return dateAndTime;
 	}
 

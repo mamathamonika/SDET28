@@ -37,7 +37,7 @@ public class ReferanceBoxIsEnableOrNotTC_24Test extends BaseClass {
 		CreatingNewContactPage newContactPage = new CreatingNewContactPage(driver);
 	
 		//verification
-		Assert.assertEquals(newContactPage.getReferenceCheckBox().isEnabled(), false);
+		Assert.assertEquals(newContactPage.getReferenceCheckBox().isEnabled(), true);
 		newContactPage.clickOnReferenceCheckBox();
 
 	}

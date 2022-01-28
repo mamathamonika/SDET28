@@ -122,7 +122,7 @@ public class WebDriverUtility {
 		List<WebElement> dropdownopt = select.getOptions();
 		for(WebElement ele:dropdownopt)
 		{
-			if(dropdownopt.equals(expectedOption))
+			if(ele.equals(expectedOption))
 			{
 				System.out.println("expected option is present in drop down");
 				return ele;
@@ -163,7 +163,7 @@ public class WebDriverUtility {
 	}
 
 	/**
-	 * this method is used to perform javascript lick on webelement
+	 * this method is used to perform javascript click on webelement
 	 * @param driver
 	 * @param element
 	 */

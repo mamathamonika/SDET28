@@ -47,6 +47,7 @@ public class BaseClass {
 	public void launchBrowser() throws Throwable {
 		String browser = fUtil.getPropertyFileData("browser");
 		String url = fUtil.getPropertyFileData("url");
+		//String browser = System.getProperty("browser"); //for maven command promt
 		if(browser.equals("chrome"))
 		{
 			System.setProperty(IpathConstants.CHROME_KEY,IpathConstants.CHROME_PATH);

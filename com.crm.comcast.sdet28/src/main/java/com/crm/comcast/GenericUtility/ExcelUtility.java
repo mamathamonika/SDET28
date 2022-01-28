@@ -24,6 +24,7 @@ public class ExcelUtility {
 	 */
 
 	public String getStringCellData(String sheetName, int rowNo, int cellNo) throws Throwable   {
+		
 		FileInputStream fis = new FileInputStream(IpathConstants.EXCEL_PATH);
 		Workbook workbook = WorkbookFactory.create(fis);
 		return workbook.getSheet(sheetName).getRow(rowNo).getCell(cellNo).getStringCellValue();

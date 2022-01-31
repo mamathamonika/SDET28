@@ -1,161 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="14" passed="6" failed="0" skipped="0">
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-24T08:49:33 IST" name="Suite" finished-at="2022-01-24T08:50:22 IST" duration-ms="48880">
+  <suite started-at="2022-01-28T19:04:27 IST" name="Suite" finished-at="2022-01-28T19:05:47 IST" duration-ms="80476">
     <groups>
       <group name="regressionTest">
-        <method signature="DoNotCallBoxIsEnableOrNotTC_22Text.doNotCallBox()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@6da21078]" name="doNotCallBox" class="contactTest.DoNotCallBoxIsEnableOrNotTC_22Text"/>
-        <method signature="EmailOptOutBoxIsEnableOrNotTC_23Test.EmailOptOutBox()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@53fdffa1]" name="EmailOptOutBox" class="contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test"/>
-        <method signature="ReferanceBoxIsEnableOrNotTC_24Test.referanceBoxIsEnable()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f736069]" name="referanceBoxIsEnable" class="contactTest.ReferanceBoxIsEnableOrNotTC_24Test"/>
-        <method signature="DoNotCallBoxIsEnableOrNotTC_22Text.doNotCallBox()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@4803b726]" name="doNotCallBox" class="contactTest.DoNotCallBoxIsEnableOrNotTC_22Text"/>
-        <method signature="EmailOptOutBoxIsEnableOrNotTC_23Test.EmailOptOutBox()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@17497425]" name="EmailOptOutBox" class="contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test"/>
-        <method signature="ReferanceBoxIsEnableOrNotTC_24Test.referanceBoxIsEnable()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f0da945]" name="referanceBoxIsEnable" class="contactTest.ReferanceBoxIsEnableOrNotTC_24Test"/>
+        <method signature="CreateContactTC_21Test.createContactTest()[pri:0, instance:contactTest.CreateContactTC_21Test@1af2d44a]" name="createContactTest" class="contactTest.CreateContactTC_21Test"/>
+        <method signature="DoNotCallBoxIsEnableOrNotTC_22Text.doNotCallBox()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@618425b5]" name="doNotCallBox" class="contactTest.DoNotCallBoxIsEnableOrNotTC_22Text"/>
+        <method signature="EmailOptOutBoxIsEnableOrNotTC_23Test.EmailOptOutBox()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@a530d0a]" name="EmailOptOutBox" class="contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test"/>
+        <method signature="ReferanceBoxIsEnableOrNotTC_24Test.referanceBoxIsEnable()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@18d87d80]" name="referanceBoxIsEnable" class="contactTest.ReferanceBoxIsEnableOrNotTC_24Test"/>
       </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateContactTC_21Test.createContactTest()[pri:0, instance:contactTest.CreateContactTC_21Test@1af2d44a]" name="createContactTest" class="contactTest.CreateContactTC_21Test"/>
+      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2022-01-24T08:49:33 IST" name="Test 2" finished-at="2022-01-24T08:50:22 IST" duration-ms="48680">
+    <test started-at="2022-01-28T19:04:27 IST" name="Test" finished-at="2022-01-28T19:05:47 IST" duration-ms="80476">
       <class name="contactTest.DoNotCallBoxIsEnableOrNotTC_22Text">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@4803b726]" started-at="2022-01-24T08:50:06 IST" name="launchBrowser" finished-at="2022-01-24T08:50:08 IST" duration-ms="1823" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@618425b5]" started-at="2022-01-28T19:05:32 IST" name="launchBrowser" finished-at="2022-01-28T19:05:34 IST" duration-ms="1936" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@4803b726]" started-at="2022-01-24T08:50:08 IST" name="loginToAppTest" finished-at="2022-01-24T08:50:12 IST" duration-ms="3539" status="PASS">
+        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@618425b5]" started-at="2022-01-28T19:05:34 IST" name="loginToAppTest" finished-at="2022-01-28T19:05:37 IST" duration-ms="3303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAppTest -->
-        <test-method signature="doNotCallBox()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@4803b726]" started-at="2022-01-24T08:50:12 IST" name="doNotCallBox" finished-at="2022-01-24T08:50:20 IST" duration-ms="8462" status="PASS">
+        <test-method signature="doNotCallBox()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@618425b5]" started-at="2022-01-28T19:05:37 IST" name="doNotCallBox" finished-at="2022-01-28T19:05:45 IST" duration-ms="7541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doNotCallBox -->
-        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@4803b726]" started-at="2022-01-24T08:50:20 IST" name="logoutOfApplication" finished-at="2022-01-24T08:50:22 IST" duration-ms="2018" status="PASS">
+        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@618425b5]" started-at="2022-01-28T19:05:45 IST" name="logoutOfApplication" finished-at="2022-01-28T19:05:47 IST" duration-ms="2000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@4803b726]" started-at="2022-01-24T08:50:22 IST" name="closeBrowser" finished-at="2022-01-24T08:50:22 IST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@618425b5]" started-at="2022-01-28T19:05:47 IST" name="closeBrowser" finished-at="2022-01-28T19:05:47 IST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- contactTest.DoNotCallBoxIsEnableOrNotTC_22Text -->
       <class name="contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test">
-        <test-method is-config="true" signature="dataBaseConnection()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@17497425]" started-at="2022-01-24T08:49:33 IST" name="dataBaseConnection" finished-at="2022-01-24T08:49:33 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="dataBaseConnection()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@a530d0a]" started-at="2022-01-28T19:04:27 IST" name="dataBaseConnection" finished-at="2022-01-28T19:04:27 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataBaseConnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@17497425]" started-at="2022-01-24T08:49:33 IST" name="launchBrowser" finished-at="2022-01-24T08:49:37 IST" duration-ms="3219" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@a530d0a]" started-at="2022-01-28T19:04:27 IST" name="launchBrowser" finished-at="2022-01-28T19:04:39 IST" duration-ms="11972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@17497425]" started-at="2022-01-24T08:49:37 IST" name="loginToAppTest" finished-at="2022-01-24T08:49:40 IST" duration-ms="3607" status="PASS">
+        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@a530d0a]" started-at="2022-01-28T19:04:39 IST" name="loginToAppTest" finished-at="2022-01-28T19:04:42 IST" duration-ms="3619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAppTest -->
-        <test-method signature="EmailOptOutBox()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@17497425]" started-at="2022-01-24T08:49:40 IST" name="EmailOptOutBox" finished-at="2022-01-24T08:49:49 IST" duration-ms="8594" status="PASS">
+        <test-method signature="EmailOptOutBox()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@a530d0a]" started-at="2022-01-28T19:04:42 IST" name="EmailOptOutBox" finished-at="2022-01-28T19:04:50 IST" duration-ms="7479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailOptOutBox -->
-        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@17497425]" started-at="2022-01-24T08:49:49 IST" name="logoutOfApplication" finished-at="2022-01-24T08:49:51 IST" duration-ms="1941" status="PASS">
+        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@a530d0a]" started-at="2022-01-28T19:04:50 IST" name="logoutOfApplication" finished-at="2022-01-28T19:04:52 IST" duration-ms="1882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@17497425]" started-at="2022-01-24T08:49:51 IST" name="closeBrowser" finished-at="2022-01-24T08:49:51 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@a530d0a]" started-at="2022-01-28T19:04:52 IST" name="closeBrowser" finished-at="2022-01-28T19:04:52 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@17497425]" started-at="2022-01-24T08:50:22 IST" name="closeDatabase" finished-at="2022-01-24T08:50:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@a530d0a]" started-at="2022-01-28T19:05:47 IST" name="closeDatabase" finished-at="2022-01-28T19:05:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDatabase -->
       </class> <!-- contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test -->
-      <class name="contactTest.ReferanceBoxIsEnableOrNotTC_24Test">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f0da945]" started-at="2022-01-24T08:49:51 IST" name="launchBrowser" finished-at="2022-01-24T08:49:53 IST" duration-ms="1811" status="PASS">
+      <class name="contactTest.CreateContactTC_21Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.CreateContactTC_21Test@1af2d44a]" started-at="2022-01-28T19:04:52 IST" name="launchBrowser" finished-at="2022-01-28T19:04:54 IST" duration-ms="2033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f0da945]" started-at="2022-01-24T08:49:53 IST" name="loginToAppTest" finished-at="2022-01-24T08:49:56 IST" duration-ms="3452" status="PASS">
+        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.CreateContactTC_21Test@1af2d44a]" started-at="2022-01-28T19:04:54 IST" name="loginToAppTest" finished-at="2022-01-28T19:04:57 IST" duration-ms="3345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAppTest -->
-        <test-method signature="referanceBoxIsEnable()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f0da945]" started-at="2022-01-24T08:49:56 IST" name="referanceBoxIsEnable" finished-at="2022-01-24T08:50:04 IST" duration-ms="7719" status="PASS">
+        <test-method signature="createContactTest()[pri:0, instance:contactTest.CreateContactTC_21Test@1af2d44a]" started-at="2022-01-28T19:04:57 IST" name="createContactTest" finished-at="2022-01-28T19:05:15 IST" duration-ms="17464" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- referanceBoxIsEnable -->
-        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f0da945]" started-at="2022-01-24T08:50:04 IST" name="logoutOfApplication" finished-at="2022-01-24T08:50:06 IST" duration-ms="1992" status="PASS">
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.CreateContactTC_21Test@1af2d44a]" started-at="2022-01-28T19:05:15 IST" name="logoutOfApplication" finished-at="2022-01-28T19:05:17 IST" duration-ms="1899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f0da945]" started-at="2022-01-24T08:50:06 IST" name="closeBrowser" finished-at="2022-01-24T08:50:06 IST" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.CreateContactTC_21Test@1af2d44a]" started-at="2022-01-28T19:05:17 IST" name="closeBrowser" finished-at="2022-01-28T19:05:17 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- contactTest.CreateContactTC_21Test -->
+      <class name="contactTest.ReferanceBoxIsEnableOrNotTC_24Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@18d87d80]" started-at="2022-01-28T19:05:17 IST" name="launchBrowser" finished-at="2022-01-28T19:05:19 IST" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@18d87d80]" started-at="2022-01-28T19:05:19 IST" name="loginToAppTest" finished-at="2022-01-28T19:05:23 IST" duration-ms="3938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppTest -->
+        <test-method signature="referanceBoxIsEnable()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@18d87d80]" started-at="2022-01-28T19:05:23 IST" name="referanceBoxIsEnable" finished-at="2022-01-28T19:05:30 IST" duration-ms="7493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- referanceBoxIsEnable -->
+        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@18d87d80]" started-at="2022-01-28T19:05:30 IST" name="logoutOfApplication" finished-at="2022-01-28T19:05:32 IST" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@18d87d80]" started-at="2022-01-28T19:05:32 IST" name="closeBrowser" finished-at="2022-01-28T19:05:32 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- contactTest.ReferanceBoxIsEnableOrNotTC_24Test -->
-    </test> <!-- Test 2 -->
-    <test started-at="2022-01-24T08:49:33 IST" name="Test 1" finished-at="2022-01-24T08:50:22 IST" duration-ms="48880">
-      <class name="contactTest.DoNotCallBoxIsEnableOrNotTC_22Text">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@6da21078]" started-at="2022-01-24T08:50:06 IST" name="launchBrowser" finished-at="2022-01-24T08:50:08 IST" duration-ms="1825" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@6da21078]" started-at="2022-01-24T08:50:08 IST" name="loginToAppTest" finished-at="2022-01-24T08:50:11 IST" duration-ms="3597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToAppTest -->
-        <test-method signature="doNotCallBox()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@6da21078]" started-at="2022-01-24T08:50:11 IST" name="doNotCallBox" finished-at="2022-01-24T08:50:20 IST" duration-ms="8676" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doNotCallBox -->
-        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@6da21078]" started-at="2022-01-24T08:50:20 IST" name="logoutOfApplication" finished-at="2022-01-24T08:50:22 IST" duration-ms="2059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutOfApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.DoNotCallBoxIsEnableOrNotTC_22Text@6da21078]" started-at="2022-01-24T08:50:22 IST" name="closeBrowser" finished-at="2022-01-24T08:50:22 IST" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- contactTest.DoNotCallBoxIsEnableOrNotTC_22Text -->
-      <class name="contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@53fdffa1]" started-at="2022-01-24T08:49:33 IST" name="launchBrowser" finished-at="2022-01-24T08:49:37 IST" duration-ms="3223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@53fdffa1]" started-at="2022-01-24T08:49:37 IST" name="loginToAppTest" finished-at="2022-01-24T08:49:40 IST" duration-ms="3730" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToAppTest -->
-        <test-method signature="EmailOptOutBox()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@53fdffa1]" started-at="2022-01-24T08:49:40 IST" name="EmailOptOutBox" finished-at="2022-01-24T08:49:49 IST" duration-ms="8170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EmailOptOutBox -->
-        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@53fdffa1]" started-at="2022-01-24T08:49:49 IST" name="logoutOfApplication" finished-at="2022-01-24T08:49:51 IST" duration-ms="2008" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutOfApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test@53fdffa1]" started-at="2022-01-24T08:49:51 IST" name="closeBrowser" finished-at="2022-01-24T08:49:51 IST" duration-ms="214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- contactTest.EmailOptOutBoxIsEnableOrNotTC_23Test -->
-      <class name="contactTest.ReferanceBoxIsEnableOrNotTC_24Test">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f736069]" started-at="2022-01-24T08:49:51 IST" name="launchBrowser" finished-at="2022-01-24T08:49:53 IST" duration-ms="1752" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToAppTest()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f736069]" started-at="2022-01-24T08:49:53 IST" name="loginToAppTest" finished-at="2022-01-24T08:49:56 IST" duration-ms="3388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToAppTest -->
-        <test-method signature="referanceBoxIsEnable()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f736069]" started-at="2022-01-24T08:49:56 IST" name="referanceBoxIsEnable" finished-at="2022-01-24T08:50:04 IST" duration-ms="7975" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- referanceBoxIsEnable -->
-        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f736069]" started-at="2022-01-24T08:50:04 IST" name="logoutOfApplication" finished-at="2022-01-24T08:50:06 IST" duration-ms="1896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutOfApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:contactTest.ReferanceBoxIsEnableOrNotTC_24Test@f736069]" started-at="2022-01-24T08:50:06 IST" name="closeBrowser" finished-at="2022-01-24T08:50:06 IST" duration-ms="176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- contactTest.ReferanceBoxIsEnableOrNotTC_24Test -->
-    </test> <!-- Test 1 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

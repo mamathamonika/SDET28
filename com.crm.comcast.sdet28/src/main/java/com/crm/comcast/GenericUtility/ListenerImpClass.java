@@ -21,6 +21,35 @@ public class ListenerImpClass extends BaseClass implements ITestListener {
 	ExtentTest test;
 
 
+	public void onStart(ITestContext context) {
+		//@BeforeSuite
+		ExtentSparkReporter spark=new ExtentSparkReporter("./extentreport.html");
+		spark.config().setTheme(Theme.STANDARD);
+		spark.config().setDocumentTitle("Vtiger automation");
+		spark.config().setReportName("Execution report");
+
+		report=new ExtentReports();
+		report.attachReporter(spark);
+		report.setSystemInfo("OS", "Window");
+		report.setSystemInfo("Platform", "Windows 10");
+		report.setSystemInfo("Reporter", "mamatha");
+	}
+
+
+	public void onTestStart(ITestResult result) {
+		//@Test
+		test = report.createTest(result.getMethod().getMethodName());
+	}
+
+	public void onTestSuccess(ITestResult result) {
+		test.log(Status.PASS, result.getMethod().getMethodName()+" is passed");
+	}
+
+	public void onTestSkipped(ITestResult result) {
+		test.log(Status.SKIP, result.getMethod().getMethodName()+" is skipped");
+		test.log(Status.SKIP,result.getThrowable());
+	}
+
 	public void onTestFailure(ITestResult result) {
 		JavaUtility jUnit =new JavaUtility();
 
@@ -47,43 +76,6 @@ public class ListenerImpClass extends BaseClass implements ITestListener {
 
 			e.printStackTrace();
 		}*/
-	}
-
-
-	public void onTestStart(ITestResult result) {
-		//@Test
-		test = report.createTest(result.getMethod().getMethodName());
-	}
-
-	public void onTestSuccess(ITestResult result) {
-		test.log(Status.PASS, result.getMethod().getMethodName()+" is passed");
-	}
-
-	public void onTestSkipped(ITestResult result) {
-		test.log(Status.SKIP, result.getMethod().getMethodName()+" is skipped");
-		test.log(Status.SKIP,result.getThrowable());
-	}
-
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-
-	}
-
-	public void onTestFailedWithTimeout(ITestResult result) {
-
-	}
-
-	public void onStart(ITestContext context) {
-		//@BeforeSuite
-		ExtentSparkReporter spark=new ExtentSparkReporter("./extentreport.html");
-		spark.config().setTheme(Theme.STANDARD);
-		spark.config().setDocumentTitle("Vtiger automation");
-		spark.config().setReportName("Execution report");
-
-		report=new ExtentReports();
-		report.attachReporter(spark);
-		report.setSystemInfo("OS", "Window");
-		report.setSystemInfo("Platform", "Windows 10");
-		report.setSystemInfo("Reporter", "mamatha");
 	}
 
 	public void onFinish(ITestContext context) {
